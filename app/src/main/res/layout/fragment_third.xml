@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Welcome to Your GMAT account"
+           android:textSize="30sp"
+           android:textStyle="bold"
+           android:layout_margin="20dp"/>
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="300dp"
+           android:src="@drawable/gmat"/>
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:layout_marginStart="20dp"
+           android:text="Previous Page"
+           android:textStyle="bold"
+           android:id="@+id/button_fourth"
+           android:textSize="15dp"/>
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:layout_marginStart="20dp"
+           android:text="To About"
+           android:textStyle="bold"
+           android:id="@+id/button_fifth"
+           android:textSize="15dp"/>
+   </LinearLayout>
+
+</FrameLayout>

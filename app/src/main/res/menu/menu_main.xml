@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.basicactivityproject.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/login"
+        android:orderInCategory="100"
+        android:title="Login"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/profile"
+        android:orderInCategory="100"
+        android:title="Profile"
+        app:showAsAction="never" />
+    <!--        justpaste.it/cqsgf-->
+    <item
+        android:id="@+id/info"
+        android:title="info"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_dialog_info"
+        app:showAsAction="always" />
+<!--    <item-->
+<!--        android:id="@+id/email"-->
+<!--        android:orderInCategory="100"-->
+<!--        android:title="email"-->
+<!--        android:icon="@android:drawable/ic_dialog_email"-->
+<!--        app:showAsAction="always" />-->
+
+    <item android:id="@+id/action_search"
+        android:title=""
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+<!--    add items
+    1. login and profile to appear only when you click the button
+    2. icons for info and email -->
+<!--    3. link the profile to about-->
+</menu>
